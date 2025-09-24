@@ -1,0 +1,26 @@
+.descripcion{
+    max-width: auto;
+    margin:  auto;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+}
+.descripcion h2{
+    color: #0056b3;
+}
+.peli1{
+    text-align: center;
+}
+.peli1 img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+body{
+    margin: 0;
+    background-image: url('../imagenes/Shadow.webp');
+    background-size:  135vh;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
