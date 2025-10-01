@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de películas en línea: busca, ordena y descubre tus películas favoritas.">
+  <meta name="author" content="Mi Catálogo">
+  <meta name="keywords" content="películas, catálogo, estrenos, cine, streaming">
+  <title>Mi Catálogo de Películas</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="container header-content">
+      <div class="logo">
+        <h1><a href="index.html">🥷 peliculas</a></h1>
+      </div>
+      <nav class="main-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="#">Estrenos</a></li>
+          <li><a href="#">Populares</a></li>
+          <li><a href="#">Categorías</a></li>
+        </ul>
+      </nav>
+      <div class="search-box">
+        <label for="buscador" class="sr-only">Buscar películas</label>
+        <input type="text" id="buscador" placeholder="🔍 Buscar...">
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO / DESTACADO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Descubre los mejores estrenos y clásicos del cine</h2>
+      <p>Explora, busca y organiza tu catálogo de películas favoritas.</p>
+      <a href="#peliculas" class="btn-hero">Ver Catálogo</a>
+    </div>
+  </section>
+
+  <!-- FILTROS -->
+  <section class="filtros container" aria-label="filtros de búsqueda">
+    <label for="ordenar">Ordenar por:</label>
+    <select id="ordenar">
+      <option value="">Seleccionar</option>
+      <option value="recientes">Más recientes</option>
+      <option value="antiguas">Más antiguas</option>
+      <option value="titulo">Título A-Z</option>
+    </select>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <main>
+    <section id="peliculas" class="peliculas container" aria-label="lista de películas">
+      
+      <!-- 20 películas -->
+      <article class="pelicula"><figure><img src="imagenes/sonic3.webp" alt="Sonic 3"><figcaption><h2 class="titulo">Sonic 3</h2><p class="anio">Año: <time datetime="2024">2024</time></p><a href="detalles1.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/camino_hacia_el_terror.webp" alt="Camino hacia el terror"><figcaption><h2 class="titulo">Camino hacia el terror</h2><p class="anio">Año: <time datetime="2003">2003</time></p><a href="detalles2.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Avatar 2.jpg" alt="Avatar 2"><figcaption><h2 class="titulo">Avatar 2</h2><p class="anio">Año: <time datetime="2022">2022</time></p><a href="detalles3.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/John Wick 4.webp" alt="John Wick 4"><figcaption><h2 class="titulo">John Wick 4</h2><p class="anio">Año: <time datetime="2023">2023</time></p><a href="detalles4.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Spider-Man.webp" alt="Spider-Man: No Way Home"><figcaption><h2 class="titulo">Spider-Man: No Way Home</h2><p class="anio">Año: <time datetime="2021">2021</time></p><a href="detalles5.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/it.webp" alt="It"><figcaption><h2 class="titulo">It</h2><p class="anio">Año: <time datetime="2017">2017</time></p><a href="detalles6.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Interstellar.webp" alt="Interstellar"><figcaption><h2 class="titulo">Interstellar</h2><p class="anio">Año: <time datetime="2014">2014</time></p><a href="detalles7.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Matrix.webp" alt="Matrix"><figcaption><h2 class="titulo">Matrix</h2><p class="anio">Año: <time datetime="1999">1999</time></p><a href="detalles8.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Titanic.webp" alt="Titanic"><figcaption><h2 class="titulo">Titanic</h2><p class="anio">Año: <time datetime="1997">1997</time></p><a href="detalles9.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Inception.webp" alt="Inception"><figcaption><h2 class="titulo">Inception</h2><p class="anio">Año: <time datetime="2010">2010</time></p><a href="detalles10.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/El Señor de los Anillos.webp" alt="El Señor de los Anillos: La Comunidad del Anillo"><figcaption><h2 class="titulo">El Señor de los Anillos: La Comunidad del Anillo</h2><p class="anio">Año: <time datetime="2001">2001</time></p><a href="detalles11.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Gladiador.webp" alt="Gladiador"><figcaption><h2 class="titulo">Gladiador</h2><p class="anio">Año: <time datetime="2000">2000</time></p><a href="detalles12.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/El Rey León.webp" alt="El Rey León"><figcaption><h2 class="titulo">El Rey León</h2><p class="anio">Año: <time datetime="1994">1994</time></p><a href="detalles13.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Avatar.webp" alt="Avatar"><figcaption><h2 class="titulo">Avatar</h2><p class="anio">Año: <time datetime="2009">2009</time></p><a href="detalles14.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Avengers.webp" alt="Avengers: Endgame"><figcaption><h2 class="titulo">Avengers: Endgame</h2><p class="anio">Año: <time datetime="2019">2019</time></p><a href="detalles15.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Black Panther.webp" alt="Black Panther"><figcaption><h2 class="titulo">Black Panther</h2><p class="anio">Año: <time datetime="2018">2018</time></p><a href="detalles16.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Joker.webp" alt="Joker"><figcaption><h2 class="titulo">Joker</h2><p class="anio">Año: <time datetime="2019">2019</time></p><a href="detalles17.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Toy Story.webp" alt="Toy Story"><figcaption><h2 class="titulo">Toy Story</h2><p class="anio">Año: <time datetime="1995">1995</time></p><a href="detalles18.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Jurassic Park.webp" alt="Jurassic Park"><figcaption><h2 class="titulo">Jurassic Park</h2><p class="anio">Año: <time datetime="1993">1993</time></p><a href="detalles19.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+      <article class="pelicula"><figure><img src="imagenes/Forrest Gump.webp" alt="Forrest Gump"><figcaption><h2 class="titulo">Forrest Gump</h2><p class="anio">Año: <time datetime="1994">1994</time></p><a href="detalles20.html" class="detalle-link">Ver detalles</a></figcaption></figure></article>
+
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Mi Catálogo. Todos los derechos reservados.</p>
+      <nav class="footer-nav">
+        <a href="#">Aviso Legal</a> | 
+        <a href="#">Privacidad</a> | 
+        <a href="#">Contacto</a>
+      </nav>
+      <div class="redes">
+        <a href="#" aria-label="Facebook">📘</a>
+        <a href="#" aria-label="Instagram">📸</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    const buscador = document.getElementById("buscador");
+    const peliculas = document.querySelectorAll(".pelicula");
+
+    buscador.addEventListener("keyup", () => {
+      let texto = buscador.value.toLowerCase();
+      peliculas.forEach(pelicula => {
+        let titulo = pelicula.querySelector(".titulo").textContent.toLowerCase();
+        pelicula.style.display = titulo.includes(texto) ? "block" : "none";
+      });
+    });
+
+    const ordenar = document.getElementById("ordenar");
+    ordenar.addEventListener("change", () => {
+      let peliculasContainer = document.getElementById("peliculas");
+      let peliculasArray = Array.from(peliculasContainer.children);
+
+      if (ordenar.value === "titulo") {
+        peliculasArray.sort((a, b) => 
+          a.querySelector(".titulo").textContent.localeCompare(b.querySelector(".titulo").textContent)
+        );
+      } else if (ordenar.value === "recientes") {
+        peliculasArray.sort((a, b) => 
+          b.querySelector("time").getAttribute("datetime") - a.querySelector("time").getAttribute("datetime")
+        );
+      } else if (ordenar.value === "antiguas") {
+        peliculasArray.sort((a, b) => 
+          a.querySelector("time").getAttribute("datetime") - b.querySelector("time").getAttribute("datetime")
+        );
+      }
+
+      peliculasArray.forEach(pelicula => peliculasContainer.appendChild(pelicula));
+    });
+  </script>
+
+</body>
+</html>
